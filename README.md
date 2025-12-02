@@ -28,7 +28,7 @@ vless://%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8FUUID@项目域名:443?encry
 | 变量名 | 描述 | 示例值 |
 | :--- | :--- | :--- |
 | **`UUID`** | 自定义uuid-必需。 | `5936acb6-e65e-4631-bedf-ce723a1a375d` |
-| **`DOMAIN`** | 域名-非必需。 | `xxx.koyeb.app` |
+| **`DOMAIN`** | 域名(首次部署后可见)-必需。 | `xxx.koyeb.app` |
 
 ### 步骤 2: 一键部署
 
