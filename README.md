@@ -32,7 +32,7 @@
 
 | 变量名 | 描述 | 示例值 |
 | :--- | :--- | :--- |
-| **`CLOUDFLARED_TOKEN`** | 必备 | `设置cf tunel时获取token` |
+| **`CLOUDFLARED_TOKEN`** | 必备 | `设置cf tunel时获取token（镜像默认localhost:8001）` |
 | **`UUID`** | 自定义uuid-必需 | `5936acb6-e65e-4631-bedf-ce723a1a375d` |
 | **`PROXY_PATH`** | 自定义path-必需 | `/5936acb6` |
 | **`DOMAIN`** | 容器本地域名(首次部署后可见)-必需 | `xxx.koyeb.app` |
