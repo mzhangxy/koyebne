@@ -54,7 +54,7 @@ async function keepAlive(env, source = 'Manual') {
   // 2. 请求 Koyeb API (模拟登录/活跃)
   try {
     const start = Date.now();
-    const response = await fetch('https://app.koyeb.com/v1/account/profile', {
+    const response = await fetch('https://app.koyeb.com/v1/apps', {
       headers: {
         'Authorization': `Bearer ${env.KOYEB_TOKEN}`,
         'Content-Type': 'application/json'
